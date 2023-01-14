@@ -1,0 +1,12 @@
+Assignment 2
+#list of items
+Line 1: DECLARE a new variable and INITIALIZE it with a LIST of 10 compliment words (nice, beautiful, lovely, etc).
+char string_variable_name [10] = {'nice','good','excellent','beautiful','wonderful','well done','lovely','incredible','wow','right'}
+Line 2: DECLARE a new variable and INITIALIZE it with a LIST of 10 insult words.
+char string_variable_name [10] = {'bad','terrible','insensitive','dumb','abuse','violence','rage','cruel','pain','anger'
+Line 3: DECLARE a new variable and INITIALIZE it with a LIST of 10 possessions/subject to complement (smile, hat, personality, etc). 
+char string_variable_name [10] = {'hat','bag','eyes','hair','shoes','body','shirt','personality','pants','house'}
+Line 5: DECLARE a new function that prints out the ninth index positions from your complement/insult list, and subject list. 
+#list of items
+list1 = ['wow','pain','pants'] #will print index of '9' in sublist #having index from 1 to end of the list.
+print(list1.index(9, 1))
